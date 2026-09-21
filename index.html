@@ -2958,7 +2958,13 @@ function renderHomeView(){
   viewEl.querySelectorAll("[data-recipe]").forEach(el=>el.addEventListener("click", ()=>openRecipe(el.dataset.recipe)));
   const si = document.getElementById("home-search");
   if(si){
-    si.addEventListener("input", ()=>{ State.homeQuery = si.value; renderHomeView(); si.focus(); si.setSelectionRange(si.value.length, si.value.length); });
+    si.addEventListener("input", ()=>{
+      State.homeQuery = si.value;
+      const pos = si.selectionStart;
+      renderHomeView();
+      const freshSi = document.getElementById("home-search");
+      if(freshSi){ freshSi.focus(); freshSi.setSelectionRange(pos, pos); }
+    });
   }
   const sc = document.getElementById("home-search-clear");
   if(sc) sc.addEventListener("click", ()=>{ State.homeQuery=""; renderHomeView(); });
