@@ -1,4 +1,4 @@
-const CACHE_NAME = 'claires-kitchen-v3';
+const CACHE_NAME = 'claires-kitchen-v4';
 const PRECACHE_URLS = [
   "./",
   "index.html",
@@ -134,6 +134,7 @@ const PRECACHE_URLS = [
   "images/f47ec89a34616068a88b2a64acd8f772.jpg",
   "images/f561dc41fb53b3b7f56cb79b3eb3704c.jpg",
   "images/f5fa4029f030dc9d785a960de7c79b58.jpg",
+  "images/f718f677c59506e2b9b1ddfdc0865bee.jpg",
   "images/f8ec6b63565785688b81247d1f411254.jpg",
   "images/f9881630a042c8beede52d297226fe3e.jpg",
   "images/ffd99dc1331a2af6490af90f69bbf016.jpg"
