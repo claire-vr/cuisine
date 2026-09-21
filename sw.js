@@ -1,4 +1,4 @@
-const CACHE_NAME = 'claires-kitchen-v4';
+const CACHE_NAME = 'claires-kitchen-v5';
 const PRECACHE_URLS = [
   "./",
   "index.html",
@@ -157,8 +157,31 @@ self.addEventListener('activate', (event) => {
   );
 });
 
+// HTML (the app shell) uses network-first: always try to fetch the latest
+// version first, so edits show up without waiting on a cache-name bump.
+// Falls back to the cached copy only when offline.
+const isHtmlRequest = (request) =>
+  request.mode === 'navigate' ||
+  (request.headers.get('accept') || '').includes('text/html');
+
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
+
+  if (isHtmlRequest(event.request)) {
+    event.respondWith(
+      fetch(event.request).then((response) => {
+        if (response && response.status === 200) {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
+        }
+        return response;
+      }).catch(() => caches.match(event.request).then((cached) => cached || caches.match('index.html')))
+    );
+    return;
+  }
+
+  // Everything else (images, icons, manifest) is cache-first, since those
+  // rarely change and don't need a network round-trip every load.
   event.respondWith(
     caches.match(event.request).then((cached) => {
       if (cached) return cached;
