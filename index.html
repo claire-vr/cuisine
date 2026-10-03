@@ -887,6 +887,42 @@ const RECIPES = [
     pairsWith:[],
   },
   {
+    id:"creamy-spinach-artichoke-chicken", title:"Creamy Spinach Artichoke Chicken", emoji:"🥘", tags:["Dishes"],
+    servings:4, servingsUnit:"servings",
+    sections:[{title:null, ingredients:[
+        ing("chicken breast fillets",4,"whole"), ing("olive oil",1,"tbsp"), ing("salt & pepper",1,"tsp"),
+        ing("spinach",200,"g"), ing("artichoke hearts",1,"tub"), ing("garlic",3,"clove"),
+        ing("light cream cheese",150,"g"), ing("Greek yoghurt (full-fat)",150,"g"), ing("parmesan",60,"g"),
+        ing("cayenne pepper",0.5,"tsp"),
+      ], steps:[
+        {text:"Preheat the oven to 190°C. Season the chicken fillets with salt and pepper.", uses:["chicken breast fillets","salt & pepper"]},
+        {text:"Heat the olive oil in an oven-safe skillet or pan. Sear the chicken for 2–3 minutes per side, just to colour it — it'll finish cooking in the oven. Set aside on a plate.", uses:["olive oil","chicken breast fillets"]},
+        {text:"In the same pan, add the spinach and cook until wilted and most of the water has evaporated — this keeps the sauce creamy instead of watery.", uses:["spinach"]},
+        {text:"Off the heat, stir in the cream cheese, yoghurt, artichoke, garlic, cayenne pepper and two-thirds of the parmesan until combined.", uses:["light cream cheese","Greek yoghurt (full-fat)","artichoke hearts","garlic","cayenne pepper","parmesan"]},
+        {text:"Nestle the chicken back into the pan, spooning some of the creamy mixture over the top. Sprinkle with the remaining parmesan.", uses:[]},
+        {text:"Transfer the pan to the oven and bake for 20–25 minutes, until the chicken is cooked through and the top is golden.", uses:[]},
+      ]}],
+    tips:"Yes — this works well as a true one-pot bake, as long as you use an oven-safe skillet (cast iron or similar) so you can sear on the stovetop and finish in the same pan. No oven-safe pan? Assemble everything straight in a baking dish and skip the searing step — a little less colour on the chicken, but just as tasty.",
+    pairsWith:[],
+  },
+  {
+    id:"one-tray-roast-chicken-eggplant", title:"One-Tray Roast Chicken with Tomatoes, Onion & Eggplant", emoji:"🍗", tags:["Dishes"],
+    servings:4, servingsUnit:"servings",
+    sections:[{title:null, ingredients:[
+        ing("whole chicken",1,"whole"), ing("onions, peeled & left whole",3,"whole"), ing("cherry tomatoes",300,"g"),
+        ing("eggplant, cut into chunks",1,"whole"), ing("thyme",0,"to taste"), ing("olive oil",3,"tbsp"),
+        ing("salt & pepper",0,"to taste"),
+      ], steps:[
+        {text:"Preheat the oven to 200°C.", uses:[]},
+        {text:"Toss the onions, cherry tomatoes and eggplant with the olive oil, most of the thyme, salt and pepper in a large roasting tray or oven dish.", uses:["onions, peeled & left whole","cherry tomatoes","eggplant, cut into chunks","olive oil","thyme","salt & pepper"]},
+        {text:"Nestle the chicken in among the vegetables. Rub it with a little more olive oil and season generously with salt, pepper and the remaining thyme, inside the cavity too.", uses:["whole chicken"]},
+        {text:"Roast for 1 hour 15 minutes to 1 hour 30 minutes, until the chicken is cooked through and the juices run clear (internal temperature of 74°C at the thickest part of the thigh). Baste with the pan juices once or twice during roasting.", uses:[]},
+        {text:"Let the chicken rest for 10 minutes before carving. Serve straight from the tray with the vegetables.", uses:[]},
+      ]}],
+    tips:"One tray, straight in the oven — no need to pre-cook anything. If the vegetables start browning too much before the chicken is done, loosely cover the tray with foil for the last part of roasting.",
+    pairsWith:[],
+  },
+  {
     id:"creamy-spinach-chicken", title:"Creamy Spinach Chicken (or Shrimp)", emoji:"🥘", tags:["Dishes"],
     photo:"images/ea7a072fe5f887644cb1c216de3d265e.jpg",
     servings:2, servingsUnit:"servings",
@@ -1121,24 +1157,6 @@ const RECIPES = [
       ]},
     ],
     tips:"Roast both trays for 30–40 minutes in a 180°C oven until crisp, stirring occasionally.",
-    pairsWith:[],
-  },
-  {
-    id:"fries-with-truffle-mayo", title:"Fries with Truffle Mayo", emoji:"🍟", tags:["Sides"],
-    photo:"images/f5fa4029f030dc9d785a960de7c79b58.jpg",
-    servings:2, servingsUnit:"servings",
-    sections:[{title:null, ingredients:[
-        ing("potatoes (or a mix with sweet potato and/or parsnip)",400,"g"), ing("olive oil",0.5,"tbsp"),
-        ing("egg white",1,"whole"), ing("oregano",0,"to taste"), ing("salt & pepper",0,"to taste"),
-        ing("feta (optional)",0,"optional"), ing("mayonnaise",0,"to taste"), ing("truffle powder",0,"to taste"),
-      ], steps:[
-        {text:"Preheat the oven to 230°C.", uses:[]},
-        {text:"Peel and cut the potatoes into evenly sized strips.", uses:["potatoes (or a mix with sweet potato and/or parsnip)"]},
-        {text:"In a large bowl, mix the egg white with the olive oil, salt and pepper. Toss the potatoes through.", uses:["egg white","olive oil","salt & pepper"]},
-        {text:"Spread the fries on a baking tray. Bake for 15 minutes, flip, and bake for another 15 minutes. Crumble feta over the top for the final 5–10 minutes if using.", uses:["oregano","feta (optional)"]},
-        {text:"Serve with truffle mayo, mixing the mayonnaise with truffle powder.", uses:["mayonnaise","truffle powder"]},
-      ]}],
-    tips:"Sweet potato browns faster than regular potato — take it out earlier or use a lower oven temperature.",
     pairsWith:[],
   },
   {
@@ -1445,6 +1463,93 @@ const RECIPES = [
         {text:"Put the yoghurt in a bowl. Finely chop the herbs and add along with pressed garlic, salt and pepper. Chill until ready to serve, then stir in the drained cucumber just before plating.", uses:["yoghurt","herbs of choice (mint, coriander, chives, dill…)","garlic clove"]},
         {text:"Spread the tzatziki over two deep plates. Arrange the rocket, spinach, cherry tomatoes, mango and onions over one half of each plate. Place the beetroot on a quarter and the meatballs on the last quarter. Top with pomegranate seeds and extra fresh herbs.", uses:["rocket","spinach","pomegranate seeds"]},
       ]}],
+    tips:"",
+    pairsWith:[],
+  },
+  {
+    id:"laban-emmo-de-renee", title:"Laban Emmo de Renée", emoji:"🍲", tags:["Dishes"],
+    photo:"images/db339b34422dbe174ba88dccc0690b8a.jpg",
+    servings:6, servingsUnit:"servings",
+    sections:[{title:null, ingredients:[
+        ing("olive oil",1,"tbsp"), ing("large onion",1,"whole"), ing("beef",600,"g"), ing("salt",1,"tsp"),
+        ing("allspice",1,"tsp"), ing("pepper",0.5,"tsp"), ing("beef stock cubes",2,"whole"), ing("water",500,"ml"),
+        ing("labneh",800,"g"), ing("water (for the labneh)",200,"ml"), ing("cornstarch",1,"tbsp"),
+        ing("dry rice",300,"g"),
+      ], steps:[
+        {text:"Heat the olive oil in a pot. Fry the onion for 2 minutes.", uses:["olive oil","large onion"]},
+        {text:"Add the meat. Season with the salt, pepper and allspice.", uses:["beef","salt","pepper","allspice"]},
+        {text:"Add 1 stock cube with the water. Close the pot and leave it on the heat.", uses:["beef stock cubes","water"]},
+        {text:"In another pot, mix the labneh with its water. Dissolve the cornstarch in a little water and add it to the labneh — this needs to happen while everything is cold, or the labneh will be ruined. Stir continuously in the pot so the labneh doesn't separate, and add the second stock cube.", uses:["labneh","water (for the labneh)","cornstarch","beef stock cubes"]},
+        {text:"Stir the meat into the labneh.", uses:["beef"]},
+        {text:"Cook the rice and serve together.", uses:["dry rice"]},
+      ]}],
+    tips:"Keep stirring the labneh pot as it heats, and make sure the cornstarch is fully mixed in before it goes on the heat — both are what keep the labneh from splitting.",
+    pairsWith:[],
+  },
+  {
+    id:"shish-barak", title:"Shish Barak de Renée", emoji:"🥟", tags:["Dishes"],
+    photo:"images/2d7a40f36b46a98e044b41c0978fe388.jpg",
+    servings:6, servingsUnit:"servings",
+    sections:[{title:null, ingredients:[
+        ing("large onion",1,"whole"), ing("minced meat",600,"g"), ing("salt",1,"tsp"), ing("allspice",1,"tsp"),
+        ing("pepper",0.5,"tsp"), ing("olive oil",1,"tbsp"), ing("beef stock cubes",2,"whole"), ing("water",500,"ml"),
+        ing("labneh",800,"g"), ing("water (for the labneh)",200,"ml"), ing("orecchiette",300,"g"),
+        ing("cornstarch",1,"tbsp"), ing("garlic cloves",3,"whole"), ing("dried coriander",1,"tsp"),
+        ing("fresh coriander and/or mint",0,"to taste"),
+      ], steps:[
+        {text:"Mix the onion with the minced meat, salt and allspice. Shape into small boulettes (meatballs).", uses:["large onion","minced meat","salt","allspice"]},
+        {text:"Heat the olive oil in a pot and add the boulettes.", uses:["olive oil"]},
+        {text:"Add 1 stock cube with the water. Close the pot and leave it on the heat.", uses:["beef stock cubes","water"]},
+        {text:"In another pot, add the labneh with its water.", uses:["labneh","water (for the labneh)"]},
+        {text:"Cook the pasta.", uses:["orecchiette"]},
+        {text:"Dissolve the cornstarch in a little water and add it to the labneh. This needs to happen while everything is cold, or the labneh will be ruined.", uses:["cornstarch"]},
+        {text:"Stir continuously in the pot so the labneh doesn't separate. Add the second stock cube, the garlic, the dried coriander and the fresh coriander and/or mint.", uses:["beef stock cubes","garlic cloves","dried coriander","fresh coriander and/or mint"]},
+        {text:"Add the boulettes to the labneh and stir well.", uses:[]},
+      ]}],
+    tips:"Traditionally this is made with minced-meat-filled raviolis. This version uses orecchiette with boulettes instead.",
+    pairsWith:[],
+  },
+  {
+    id:"malfouf-mahshi-de-renee", title:"Malfouf Mahshi de Renée", emoji:"🥬", tags:["Dishes"],
+    photo:"images/4b2b7be0c8afda66c80c6fd64649cbda.jpg",
+    servings:10, servingsUnit:"servings",
+    sections:[{title:null, ingredients:[
+        ing("large cabbage",1,"whole"), ing("minced meat",400,"g"), ing("onion",1,"whole"), ing("tomato",1,"whole"),
+        ing("dry rice",150,"g"), ing("salt",1,"tsp"), ing("black pepper",0.5,"tsp"), ing("garlic cloves",12,"whole"),
+        ing("beef stock cubes",2,"whole"), ing("dried mint",3,"tbsp"), ing("lemon juice",3,"tbsp"), ing("water (boiling)",0,"to taste"),
+      ], steps:[
+        {text:"Tear or cut the leaves off the cabbage. Dip them in hot/boiling water for 1 minute, then remove and let cool. Cut out the thick ribs (don't throw them away).", uses:["large cabbage"]},
+        {text:"Finely chop the onion. Dice the tomato. Rinse the rice.", uses:["onion","tomato","dry rice"]},
+        {text:"In a large bowl, mix the minced meat, onion, tomato, rice, a heaped teaspoon of salt and the pepper.", uses:["minced meat","onion","tomato","dry rice","salt","black pepper"]},
+        {text:"Place half a tablespoon of filling at one end of a cabbage leaf and roll it up, folding in the edges.", uses:[]},
+        {text:"In a large pot, line the bottom with the cabbage ribs. Place the rolls on top. Put an upside-down plate on top and crumble the stock cubes over it.", uses:["beef stock cubes"]},
+        {text:"Add boiling water, pouring it over the plate, until everything is covered. Put a lid on the pot and cook for 25 minutes.", uses:["water (boiling)"]},
+        {text:"In a small bowl, mix the crushed garlic cloves, dried mint, lemon juice and a little warm water.", uses:["garlic cloves","dried mint","lemon juice"]},
+        {text:"Remove the pot from the heat, take off the lid and the plate, and pour the garlic mixture on top.", uses:[]},
+      ]}],
+    tips:"",
+    pairsWith:[],
+  },
+  {
+    id:"mujadra-with-malfouf-salad", title:"Mujadara with Malfouf Salad", emoji:"🥗", tags:["Dishes"],
+    photo:"images/9ec3c67a428a2cd21dd6ff7be0f9d07d.jpg",
+    servings:4, servingsUnit:"servings",
+    sections:[
+      {title:"Mujadara", ingredients:[
+          ing("lentils",200,"g"), ing("onion",1,"whole"), ing("salt",0,"to taste"),
+        ], steps:[
+          {text:"Boil everything in salted water.", uses:["lentils","onion","salt"]},
+          {text:"Once cooked, let it cool, then blend.", uses:[]},
+          {text:"Serve with olive oil, rice, or the cabbage salad (salatet malfouf).", uses:[]},
+        ]},
+      {title:"Malfouf Salad (Salatet Malfouf)", ingredients:[
+          ing("cabbage",0.5,"whole"), ing("salt",0,"to taste"), ing("garlic clove",1,"whole"),
+          ing("lemon juice",0,"to taste"), ing("olive oil",0,"to taste"), ing("fresh mint",0,"to taste"),
+        ], steps:[
+          {text:"Cut the cabbage into a small julienne. Add salt and let it draw out liquid.", uses:["cabbage","salt"]},
+          {text:"Press the garlic and mix it in with the lemon juice, olive oil and mint.", uses:["garlic clove","lemon juice","olive oil","fresh mint"]},
+        ]},
+    ],
     tips:"",
     pairsWith:[],
   },
@@ -1762,11 +1867,12 @@ const RECIPES = [
       ]},
       {title:"Toppings", ingredients:[
         ing("cooked broccoli",1,"handful"), ing("kimchi (or pickled radishes/cucumbers)",1,"tbsp"),
+        ing("marinated cucumbers",1,"handful"),
         ing("fried egg (or shredded cooked chicken/pork, fried tofu, or omit)",1,"whole"),
         ing("coriander or chives",0,"to taste"), ing("chili oil",0,"to taste"),
         ing("chopped roasted cashews, peanuts or sesame seeds",1,"handful"),
       ], steps:[
-        {text:"Top the bowl with cooked broccoli, kimchi, a fried egg, coriander or chives, chili oil and chopped roasted nuts or seeds, as desired.", uses:["cooked broccoli","kimchi (or pickled radishes/cucumbers)","fried egg (or shredded cooked chicken/pork, fried tofu, or omit)","coriander or chives","chili oil","chopped roasted cashews, peanuts or sesame seeds"]},
+        {text:"Top the bowl with cooked broccoli, kimchi, marinated cucumbers, a fried egg, coriander or chives, chili oil and chopped roasted nuts or seeds, as desired.", uses:["cooked broccoli","kimchi (or pickled radishes/cucumbers)","marinated cucumbers","fried egg (or shredded cooked chicken/pork, fried tofu, or omit)","coriander or chives","chili oil","chopped roasted cashews, peanuts or sesame seeds"]},
       ]}],
     tips:"",
     pairsWith:[],
@@ -2690,8 +2796,10 @@ const State = {
   mealPlan:[],            // array of recipe ids
   servingsOverride:{},    // recipeId -> current servings number
   collapsedSections:{},   // recipeId -> Set of section index collapsed
-  edits:{},               // recipeId -> draft object (local-only, temporary edit tool)
+edits:{},               // recipeId -> draft object (local-only, temporary edit tool)
   editing:null,           // recipeId currently in edit mode, or null
+  homeScrollY:0,           // scroll position to restore when returning to the home list
+  restoreHomeScroll:false, // set true right before a render that should restore homeScrollY instead of resetting to top
 };
 
 function loadPersisted(){
@@ -2873,12 +2981,19 @@ const ICONS = {
 function render(){
   renderTopbar();
   renderTabbar();
-  if(State.tab==="home") renderHomeView();
+if(State.tab==="home") renderHomeView();
   else if(State.tab==="search") renderSearchView();
   else if(State.tab==="plan") renderPlanView();
   else if(State.tab==="detail") renderDetailView();
-  viewEl.scrollTop = 0;
-  window.scrollTo(0,0);
+
+  if(State.tab==="home" && State.restoreHomeScroll){
+    viewEl.scrollTop = State.homeScrollY;
+    window.scrollTo(0, State.homeScrollY);
+    State.restoreHomeScroll = false;
+  } else {
+    viewEl.scrollTop = 0;
+    window.scrollTo(0,0);
+  }
 }
 
 function renderTabbar(){
@@ -2918,14 +3033,48 @@ function renderTopbar(){
 
 function renderHomeView(){
   const cats = ["All", ...CATEGORIES];
+  const chipHtml = cats.map(c=>`<button class="cat-chip ${State.category===c?'active':''}" data-cat="${esc(c)}">${esc(c)}</button>`).join("");
+
+  viewEl.innerHTML = `
+    <div class="chip-row">${chipHtml}</div>
+    <div class="search-wrap">
+      <div class="search-field">
+        ${ICONS.search}
+        <input id="home-search" type="text" placeholder="Search recipes" value="${esc(State.homeQuery)}">
+        <span id="home-search-clear-wrap"></span>
+      </div>
+    </div>
+    <div class="grid" id="home-grid"></div>
+  `;
+
+  viewEl.querySelectorAll(".cat-chip").forEach(b=>b.addEventListener("click", ()=>{ State.category=b.dataset.cat; renderHomeView(); }));
+
+  const si = document.getElementById("home-search");
+  si.addEventListener("input", ()=>{ State.homeQuery = si.value; renderHomeResults(); });
+
+  const scWrap = document.getElementById("home-search-clear-wrap");
+  scWrap.addEventListener("click", (e)=>{
+    if(e.target.closest("#home-search-clear")){
+      State.homeQuery = "";
+      si.value = "";
+      si.focus();
+      renderHomeResults();
+    }
+  });
+
+  renderHomeResults();
+
+  topbarEl.onscroll = null;
+  window.onscroll = ()=>{ if(window.scrollY>4) topbarEl.classList.add("scrolled"); else topbarEl.classList.remove("scrolled"); };
+}
+
+function renderHomeResults(){
   let list = RECIPES.slice();
   if(State.category!=="All") list = list.filter(r=>r.tags.includes(State.category));
   if(State.homeQuery.trim()){
     const q = State.homeQuery.trim().toLowerCase();
     list = list.filter(r=>r.title.toLowerCase().includes(q));
   }
-
-  const chipHtml = cats.map(c=>`<button class="cat-chip ${State.category===c?'active':''}" data-cat="${esc(c)}">${esc(c)}</button>`).join("");
 
   const cardsHtml = list.length ? list.map(r=>{
     const st = CAT_STYLE[primaryCat(r)];
@@ -2942,40 +3091,20 @@ function renderHomeView(){
     </a>`;
   }).join("") : `<div class="empty-state" style="grid-column:1/-1;"><span class="emoji">🍽️</span><h3>No recipes here yet</h3><p>Try a different category or search.</p></div>`;
 
-  viewEl.innerHTML = `
-    <div class="chip-row">${chipHtml}</div>
-    <div class="search-wrap">
-      <div class="search-field">
-        ${ICONS.search}
-        <input id="home-search" type="text" placeholder="Search recipes" value="${esc(State.homeQuery)}">
-        ${State.homeQuery? `<button class="search-clear" id="home-search-clear">${ICONS.x}</button>` : ""}
-      </div>
-    </div>
-    <div class="grid">${cardsHtml}</div>
-  `;
-
-  viewEl.querySelectorAll(".cat-chip").forEach(b=>b.addEventListener("click", ()=>{ State.category=b.dataset.cat; renderHomeView(); }));
-  viewEl.querySelectorAll("[data-recipe]").forEach(el=>el.addEventListener("click", ()=>openRecipe(el.dataset.recipe)));
-  const si = document.getElementById("home-search");
-  if(si){
-    si.addEventListener("input", ()=>{
-      State.homeQuery = si.value;
-      const pos = si.selectionStart;
-      renderHomeView();
-      const freshSi = document.getElementById("home-search");
-      if(freshSi){ freshSi.focus(); freshSi.setSelectionRange(pos, pos); }
-    });
+  const grid = document.getElementById("home-grid");
+  if(grid){
+    grid.innerHTML = cardsHtml;
+    grid.querySelectorAll("[data-recipe]").forEach(el=>el.addEventListener("click", ()=>openRecipe(el.dataset.recipe)));
   }
-  const sc = document.getElementById("home-search-clear");
-  if(sc) sc.addEventListener("click", ()=>{ State.homeQuery=""; renderHomeView(); });
 
-  topbarEl.onscroll = null;
-  window.onscroll = ()=>{ if(window.scrollY>4) topbarEl.classList.add("scrolled"); else topbarEl.classList.remove("scrolled"); };
+  const clearWrap = document.getElementById("home-search-clear-wrap");
+  if(clearWrap) clearWrap.innerHTML = State.homeQuery ? `<button class="search-clear" id="home-search-clear">${ICONS.x}</button>` : "";
 }
 
 /* ============================ RECIPE DETAIL ============================ */
 
 function openRecipe(id){
+  if(State.tab==="home"){ State.homeScrollY = window.scrollY || viewEl.scrollTop || 0; }
   State.recipeId = id;
   State.tab = "detail";
   State.editing = null;
@@ -3088,7 +3217,9 @@ function renderDetailView(){
 
   document.getElementById("detail-back").addEventListener("click", ()=>{
     if(isEditing){ State.editing=null; }
-    State.tab="home"; render();
+    State.tab="home";
+    State.restoreHomeScroll = true;
+    render();
   });
 
   const editToggleBtn = document.getElementById("edit-toggle");

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'claires-kitchen-v5';
+const CACHE_NAME = 'claires-kitchen-v6';
 const PRECACHE_URLS = [
   "./",
   "index.html",
@@ -26,6 +26,9 @@ const PRECACHE_URLS = [
   "images/22bddebe1cd72571855399875d322dbf.jpg",
   "images/23faaf3dfa466873ff40409cb3440d59.jpg",
   "images/2774e28904f901d61ffbed1267ce411a.jpg",
+  "images/9ec3c67a428a2cd21dd6ff7be0f9d07d.jpg",
+  "images/4b2b7be0c8afda66c80c6fd64649cbda.jpg",
+  "images/2d7a40f36b46a98e044b41c0978fe388.jpg",
   "images/2f43a9a45fbdc4bd76713da524dedf4a.jpg",
   "images/36f5e19e1dc44f9534ef5115cb8351f0.jpg",
   "images/37112f6bf09bb2397670d0c2b441a3f7.jpg",
@@ -133,7 +136,6 @@ const PRECACHE_URLS = [
   "images/f1daf4c9c223ee240a872a4e9e274fb3.jpg",
   "images/f47ec89a34616068a88b2a64acd8f772.jpg",
   "images/f561dc41fb53b3b7f56cb79b3eb3704c.jpg",
-  "images/f5fa4029f030dc9d785a960de7c79b58.jpg",
   "images/f718f677c59506e2b9b1ddfdc0865bee.jpg",
   "images/f8ec6b63565785688b81247d1f411254.jpg",
   "images/f9881630a042c8beede52d297226fe3e.jpg",
