@@ -1,4 +1,4 @@
-const CACHE_NAME = 'claires-kitchen-v16';
+const CACHE_NAME = 'claires-kitchen-v17';
 const PRECACHE_URLS = [
   "./",
   "index.html",
