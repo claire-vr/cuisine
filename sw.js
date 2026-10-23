@@ -1,4 +1,4 @@
-const CACHE_NAME = 'claires-kitchen-v11';
+const CACHE_NAME = 'claires-kitchen-v12';
 const PRECACHE_URLS = [
   "./",
   "index.html",
@@ -9,6 +9,7 @@ const PRECACHE_URLS = [
   "icons/apple-touch-icon.png",
   "favicon.ico",
   "images/036c4ca7aca0e6652d85fac52bb5f5f0.jpg",
+  "images/e758e4fde14e47e61decbf1d5353b98b.jpg",
   "images/089325ed7c99f3cd8bca80beb5ceb762.jpg",
   "images/0a44d69897b8a8159fb303c4984c37f0.jpg",
   "images/0c7c9d2619ac91b70fdbf9897f6df121.jpg",
