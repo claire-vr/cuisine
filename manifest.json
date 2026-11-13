@@ -1,6 +1,6 @@
 {
-  "name": "Claire's Kitchen",
-  "short_name": "Claire's Kitchen",
+  "name": "Cuisine",
+  "short_name": "Cuisine",
   "description": "Claire's personal recipe collection",
   "start_url": "./index.html",
   "scope": "./",
