@@ -1,10 +1,11 @@
-const CACHE_NAME = 'claires-kitchen-v20';
+const CACHE_NAME = 'claires-kitchen-v21';
 const PRECACHE_URLS = [
   "./",
   "index.html",
   "manifest.json",
   "icons/icon-192.png",
   "icons/icon-512.png",
+  "icons/icon-maskable-192.png",
   "icons/icon-maskable-512.png",
   "icons/apple-touch-icon.png",
   "favicon.ico",
